@@ -11,8 +11,17 @@ html , body{
     height: 100vh;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.674) ,rgba(255, 255, 255, 0.625)),url("pattern.avif");
     background-size: cover;
-    /* overflow-x:hidden; */
+    overflow-x:hidden;
 }
+
+
+.svg{
+    max-width:100%;
+    height:auto;
+}
+
+
+
 
 nav{
     background-color: #946000;
