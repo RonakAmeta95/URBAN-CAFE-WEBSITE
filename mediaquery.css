@@ -1,0 +1,131 @@
+@media only screen and (min-width :200px) and (max-width:575px) {
+
+    .tabs{
+        flex-direction: row;
+    }
+    ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    ul li{
+        margin: 5px;
+        font-size: 10px;
+        display: none;
+    }
+
+    .burger-btn{
+        display: block;
+    }
+
+
+    .home{
+        flex-direction: column;
+        gap: 50px;
+        
+    }
+
+    .home-text{
+        font-size: 28px;
+        text-align: center;
+        border: 4px solid brown;
+        background-color: rgba(255, 240, 145, 0.421);
+        padding: 10px;
+        box-shadow: 0 0 10px grey;
+
+    }
+
+    .svg{
+        margin-left: 110px;
+    }
+
+    .book-now{
+        font-size: 10px;
+    }
+
+    .cafe-img{
+        width: 335px;
+    }
+
+    h2,input,.place-booked{
+        width: 300px;
+    }
+
+    .booked{
+        padding-top:200px;
+    }
+
+    .heading{
+        font-size: 30px;
+    }
+
+    .about{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-cafe-img{
+        margin: auto;
+        width: 200px;
+    }
+
+    .about-text{
+        font-size:12px ;
+        padding: 20px;
+    }
+
+    .highlight{
+        flex-direction: column;
+        gap: 10px;
+        margin: 20px;
+    }
+
+    i{
+        font-size: 50px;
+    }
+
+    .highlight-heading{
+        font-size: 15px;
+    }
+
+
+    .food{
+        width: 130px;
+        height: 120px;
+        gap: 2px;
+    }
+
+
+    .menu{
+        gap: 15px;
+    }
+
+    .menu-item{
+        width: 160px;
+        height:279px ;
+        padding: 9px;
+        
+    }
+
+   
+    .food-name{
+        font-size: 8px;
+    }
+
+    .price{
+        font-size: 12px;
+    }
+
+    .line{
+        font-size: 11px;
+    }
+
+    .desp{
+        font-size: 8px;
+    }
+
+    .cart{
+        font-size: 10px;
+    }
+
+
+}
