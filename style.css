@@ -11,9 +11,8 @@ html , body{
     height: 100vh;
     background: linear-gradient(to right, rgba(255, 255, 255, 0.674) ,rgba(255, 255, 255, 0.625)),url("pattern.avif");
     background-size: cover;
-    
+    /* overflow-x:hidden; */
 }
-
 
 nav{
     background-color: #946000;
@@ -42,7 +41,7 @@ ul li{
 }
 
 #tab-img{
-    font-size: smaller;
+    font-size: small;
 }
 
 ul li:hover{
@@ -215,7 +214,7 @@ input:hover{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    gap:10px;
+    gap: 10px;
 }
 
 #high{
@@ -274,6 +273,7 @@ input:hover{
     background-color: rgba(255, 242, 175, 0.652);
     width: 310px;
     height: 460px;
+    justify-content: space-evenly;
 
 }
 
@@ -335,8 +335,3 @@ input:hover{
     transform: scale(1.01);
     
 }
-
-
-
-
-
