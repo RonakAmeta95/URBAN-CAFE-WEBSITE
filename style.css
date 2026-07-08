@@ -74,6 +74,20 @@ a{
     align-items: center;
     margin-top: 20px;
 }
+.off{
+    animation: pulse 2s infinite;
+    padding: 1px;
+}
+@keyframes pulse{
+    0%{transform:scale(1);
+        }
+    50%{transform:scale(1.2);
+    }
+    100%{transform:scale(1);
+        }
+}
+
+
 
 .home-text{
     color: #946000;
@@ -181,6 +195,7 @@ input:hover{
 }
 
 .heading{
+    padding: 5px;
     font-weight: bolder;
     font-size: xxx-large;
     background-color: #946000;
@@ -200,6 +215,7 @@ input:hover{
     color: black;
     font-size: 18px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
 
 
@@ -251,13 +267,24 @@ input:hover{
     font-size: 15px;
 }
 
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.banner img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
 .menu{
     /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr; */
     display: flex;
     flex-wrap: wrap;
-    gap: 60px;
+    gap: 25px;
     justify-content: center;
     align-items: center;
 }
@@ -335,3 +362,54 @@ input:hover{
     transform: scale(1.01);
     
 }
+
+
+
+
+.cart-box{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height:100vh;
+    width: 100%;
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.482),rgba(0, 0, 0, 0.482)),url("cafe.jpg");
+    background-size: cover;
+    display: none;
+}
+
+.cart-text{
+    text-align: center;
+    border: 2px solid white;
+    margin: 10px;
+    background-color: #684400;
+    color: white;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 20px;
+
+    
+}
+
+
+
+.order{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+    width: 200px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

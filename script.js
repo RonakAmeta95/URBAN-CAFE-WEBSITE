@@ -33,10 +33,24 @@ burger.addEventListener("click", () => {
 });
 
 
+// let cart=document.querySelectorAll(".cart")
+// let cartbox=document.querySelector(".cart-box")
+// let order=document.querySelector(".orders")
 
+// cart.forEach(e => {
+//     e.addEventListener("click",()=>{
+//         cartbox.style.display="block"; 
+        
+//     });
+// });
 
+// let cart=document.querySelector(".cart")
+// let cart_box=document.querySelector(".cart-box")
 
-
+// cart.addEventListener("click",()=>{
+//            cart.classList("cart_box");
+//            alert("hi")
+//        });
 
 
 
