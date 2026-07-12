@@ -17,9 +17,11 @@
         display: none;
     }
 
-    .burger-btn{
+    .tab-option ul li.burger-btn{
         display: block;
     }
+
+    
 
     
     .home{
@@ -105,10 +107,12 @@
     .highlight{
         flex-direction: column;
         gap: 10px;
-        margin: 20px;
+        height: 1000px;
     }
 
-
+    .footer{
+        margin-top: 30px;
+    }
     i{
         font-size: 50px;
     }
@@ -117,8 +121,8 @@
         font-size: 15px;
     }
 
-    .banner img{
-        height: 155px;
+    .banner{
+        margin: 0;
     }
 
     .food{
@@ -130,6 +134,7 @@
 
     .menu{
         gap: 15px;
+        margin-top: 10px;
     }
 
     .menu-item{
@@ -156,16 +161,51 @@
         font-size: 8px;
     }
 
-    .cart{
-        font-size: 10px;
-    }
 
-    
-    .order{
-        width: 320px;
-    }
+        .footer{
+            gap: 0;
+            text-align:center;
+        
+        }
+        footer i{
+            font-size: 15px;
+        }
 
+        
+        .footer-logo{
+        
+            margin:auto;
+        
+        }
+        
+        .social-icons{
+        
+            justify-content:center;
+        
+        }
+
+        .gallery{
+            height: 300px;
+        }
+        
+        .gallery-img{
+            width: 150px;
+            height: 100px;
+        }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
